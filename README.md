@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# KYC Hub Front-End Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a front-end assignment for KYC Hub. The project is built using **ReactJS** and includes features like a product details page, product comparison, and routing.
 
-## Available Scripts
+Product Details Page: The landing page displays a table of products. You can sort the table and add products to the comparison list.
+Compare Products Page: Navigate to the comparison page to view and compare selected products. You can also add more products using the "Add More" button.
 
-In the project directory, you can run:
+## Features
+- **Product Details Page**: Displays a table of products fetched from an API. You can sort the table and add products to the comparison list.
+- **Compare Products**: Allows users to compare up to 4 products side by side. Users can also remove products from the comparison list.
+- **Routing**: Navigation between the product details and comparison pages using React Router.
 
-### `npm start`
+## Technologies Used
+- **ReactJS**: For building the user interface.
+- **Ant Design**: For styling and table components.
+- **React Router**: For navigation between pages.
+- **Netlify**: For deployment.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How to Run the Project Locally
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Follow these steps to run the project on your local machine:
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Step 1: Clone the Repository
+1. Open your terminal or command prompt.
+2. Run the following command to clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   npm install
+   npm start
