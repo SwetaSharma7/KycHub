@@ -2,8 +2,8 @@
 
 This is a front-end assignment for KYC Hub. The project is built using **ReactJS** and includes features like a product details page, product comparison, and routing.
 
-Product Details Page: The landing page displays a table of products. You can sort the table and add products to the comparison list.
-Compare Products Page: Navigate to the comparison page to view and compare selected products. You can also add more products using the "Add More" button.
+-> Product Details Page: The landing page displays a table of products. You can sort the table and add products to the comparison list.
+-> Compare Products Page: Navigate to the comparison page to view and compare selected products. You can also add more products using the "Add More" button.
 
 ## Features
 - **Product Details Page**: Displays a table of products fetched from an API. You can sort the table and add products to the comparison list.
