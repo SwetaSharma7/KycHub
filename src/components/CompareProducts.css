@@ -1,0 +1,84 @@
+.compare-products {
+    padding: 20px;
+    max-width: 100vh;
+    margin: 0 auto;
+  }
+  
+  .compare-products h1 {
+    color: #1890ff; 
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .compare-products .add-more-button {
+    background-color: #1890ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .compare-products .add-more-button:hover {
+    background-color: #40a9ff; 
+  }
+  
+  .compare-products .comparison-table {
+    margin-top: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .compare-products .comparison-table .ant-table-thead > tr > th {
+    background-color: #1890ff;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .compare-products .comparison-table .ant-table-tbody > tr > td {
+    background-color: white;
+  }
+  
+  .compare-products .comparison-table .ant-table-tbody > tr:hover > td {
+    background-color: #e6f7ff !important; 
+  }
+  
+  .compare-products .ant-modal-content {
+    border-radius: 8px;
+  }
+  
+  .compare-products .ant-modal-header {
+    background-color: #1890ff;
+    color: white;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .compare-products .ant-modal-title {
+    color: white;
+    font-size: 20px;
+  }
+  
+  .compare-products .ant-modal-body {
+    padding: 20px;
+  }
+  
+  .compare-products .ant-table {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .compare-products .ant-table-thead > tr > th {
+    background-color: #1890ff;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .compare-products .ant-table-tbody > tr:hover > td {
+    background-color: #e6f7ff !important; 
+  }
